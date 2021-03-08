@@ -401,6 +401,11 @@ div.container {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  outline: none;
+}
+
+.policy-input:focus ~ .checkbox {
+  outline: 1px dotted ButtonText;
 }
 
 .checkbox {
