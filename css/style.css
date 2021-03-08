@@ -672,12 +672,16 @@ h4 {
   justify-content: center;
 }
 
-.subscribe-label {
+.subscribe-form {
+  display: flex;
   margin-top: 10px;
   width: 570px;
-  display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.subscribe-label {
+  display: flex;
 }
 
 .subscribe-input {
@@ -706,7 +710,7 @@ h4 {
   color: white;
 }
 
-.subscribe-label > .service-button {
+.subscribe-form > .service-button {
   margin: 0;
   display: flex;
   padding: 0 28px;
